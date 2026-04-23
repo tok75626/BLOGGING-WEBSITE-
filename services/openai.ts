@@ -7,7 +7,7 @@ const openai = new OpenAI({
   baseURL: isOpenRouter ? "https://openrouter.ai/api/v1" : undefined,
   defaultHeaders: isOpenRouter ? {
     "HTTP-Referer": process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
-    "X-Title": "AIBlog Platform",
+    "X-Title": "AI Blogging Platform",
   } : undefined,
 });
 
